@@ -1,0 +1,350 @@
+{
+  "Songs": {
+    "title": "All Songs",
+    "color": "rgb(255, 50, 105)",
+    "picture": "/database/picture/stocks/songs.webp",
+    "content": "audio"
+  },
+  "Podcasts": {
+    "title": "Top Podcasts",
+    "color": "rgb(204, 85, 0)",
+    "picture": "/database/picture/stocks/podcasts.webp",
+    "content": "podcast"
+  },
+  "Made For You": {
+    "title": "Made Just For You",
+    "color": "rgb(128, 42, 136)",
+    "picture": "/database/picture/stocks/made-for-you.webp",
+    "content": [
+      "O Re Piya (Aaja Nachle)",
+      "Tu Jaane Na (Ajab Prem Ki Ghazab Kahani)",
+      "Jeene Laga Hoon (Ramaiya Vastavaiya)",
+      "Taaron Ke Shehar",
+      "Kinna Sona (Marjaavaan)"
+    ]
+  },
+  "New Releases": {
+    "title": "Fresh Drops",
+    "color": "rgb(15, 82, 161)",
+    "picture": "/database/picture/stocks/new-releases.webp",
+    "content": [
+      "Aankh",
+      "Aaye Haaye",
+      "Soulmate (Ek Tha Raja)",
+      "Angaaron (Pushpa 2 The Rule)",
+      "Lutt Putt Gaya (Dunki)",
+      "Satranga (Animal)",
+      "Phir Aur Kya Chahiye (Zara Hatke Zara Bachke)"
+    ]
+  },
+  "Trending": {
+    "title": "Trending Now",
+    "color": "rgb(204, 51, 37)",
+    "picture": "/database/picture/stocks/trending.webp",
+    "content": [
+      "Aankh",
+      "O Re Piya (Aaja Nachle)",
+      "Zara Sa (Jannat)",
+      "Soulmate (Ek Tha Raja)",
+      "Satranga (Animal)",
+      "Phir Aur Kya Chahiye (Zara Hatke Zara Bachke)",
+      "Angaaron (Pushpa 2 The Rule)"
+    ]
+  },
+  "Summer": {
+    "title": "Summer Vibes",
+    "color": "rgb(124, 123, 0)",
+    "picture": "/database/picture/stocks/summer.webp",
+    "content": [
+      "Tum Hi Ho (Aashiqui 2)",
+      "Tera Hone Laga Hoon (Ajab Prem Ki Ghazab Kahani)",
+      "Jeene Laga Hoon (Ramaiya Vastavaiya)",
+      "Shayad (Love Aaj Kal)",
+      "Main Rang Sharbaton Ka (Phata Poster Nikhla Hero)",
+      "Dil Ko Karaar Aaya (Sukoon)",
+      "Mere Yaaraa (Sooryavanshi)"
+    ]
+  },
+  "Hindi": {
+    "title": "Bollywood & Hindi Beats",
+    "color": "rgb(204, 61, 35)",
+    "picture": "/database/picture/stocks/hindi.webp",
+    "content": [
+      "Janam Janam (Phata Poster Nikhla Hero)",
+      "Jeene Laga Hoon (Ramaiya Vastavaiya)",
+      "Pehli Nazar Mein (Race)",
+      "Piya O Re Piya (Tere Naal Love Ho Gaya)",
+      "Rang Jo Lagyo (Ramaiya Vastavaiya)",
+      "Tera Hone Laga Hoon (Ajab Prem Ki Ghazab Kahani)",
+      "Tu Jaane Na (Ajab Prem Ki Ghazab Kahani)",
+      "Main Rang Sharbaton Ka (Phata Poster Nikhla Hero)",
+      "Apna Bana Le Song (Bhediya)",
+      "Deva Deva (Brahmastra)",
+      "Satranga (Animal)",
+      "Khairiyat (Chhichhore)",
+      "Tumse Bhi Zyada (Tadap)",
+      "Lutt Putt Gaya (Dunki)",
+      "Mere Yaaraa (Sooryavanshi)",
+      "Phir Aur Kya Chahiye (Zara Hatke Zara Bachke)"
+    ]
+  },
+  "Punjabi": {
+    "title": "Punjabi Power",
+    "color": "rgb(204, 0, 90)",
+    "picture": "/database/picture/stocks/punjabi.webp",
+    "content": [
+      "Gaadi Kaali",
+      "Aaye Haaye",
+      "Maahi Ve(Wajah Tum Ho)",
+      "Akhiyaan(Tuesdays And Fridays)",
+      "Kinna Sona (Marjaavaan)",
+      "Akhiyan (Mirza The Untold Story)"
+    ]
+  },
+  "Tamil": {
+    "title": "Tamil Thaaru Maaru",
+    "color": "rgb(98, 32, 145)",
+    "picture": "/database/picture/stocks/tamil.webp",
+    "content": "tamil"
+  },
+  "Telugu": {
+    "title": "Tollywood Hits",
+    "color": "rgb(44, 0, 102)",
+    "picture": "/database/picture/stocks/telugu.webp",
+    "content": "telugu"
+  },
+  "Gujarati": {
+    "title": "Gujarati Grooves",
+    "color": "rgb(204, 37, 0)",
+    "picture": "/database/picture/stocks/gujarati.webp",
+    "content": "gujarati"
+  },
+  "Marathi": {
+    "title": "Marathi Masti",
+    "color": "rgb(179, 78, 78)",
+    "picture": "/database/picture/stocks/marathi.webp",
+    "content": "marathi"
+  },
+  "English": {
+    "title": "Global English Hits",
+    "color": "rgb(35, 51, 153)",
+    "picture": "/database/picture/stocks/english.webp",
+    "content": "english"
+  },
+  "Ghazals": {
+    "title": "Soulful Ghazals",
+    "color": "rgb(72, 61, 139)",
+    "picture": "/database/picture/stocks/ghazals.webp",
+    "content": [
+      "Zihaal E Miskin",
+      "O Re Piya (Aaja Nachle)",
+      "Labon Ko (Bhool Bhulaiyaa)",
+      "Sajda (My Name Is Khan)",
+      "Main Jahaan Rahoon (Namastey London)",
+      "Mere Haath Mein (Fanaa)",
+      "Ajab Si (Om Shanti Om)",
+      "Piya Aaye Na (Aashiqui 2)",
+      "Tu Hi Meri Shab Hai (Gangster)"
+    ]
+  },
+  "Pop": {
+    "title": "Pop Culture",
+    "color": "rgb(204, 0, 90)",
+    "picture": "/database/picture/stocks/pop.webp",
+    "content": [
+      "Jeene Laga Hoon (Ramaiya Vastavaiya)",
+      "Tera Hone Laga Hoon (Ajab Prem Ki Ghazab Kahani)",
+      "Meri Aashiqui",
+      "Hum Mar Jayenge (Aashiqui 2)",
+      "Mere Yaaraa (Sooryavanshi)",
+      "Pehli Nazar Mein (Race)",
+      "Dil Diyan Gallan (Tiger Zinda Hai)"
+    ]
+  },
+  "HipHop": {
+    "title": "Hip-Hop Heat",
+    "color": "rgb(204, 0, 0)",
+    "picture": "/database/picture/stocks/hiphop.webp",
+    "content": [
+      "Satranga (Animal)",
+      "Main Tera Dhadkan Teri (Ajab Prem Ki Ghazab Kahani)",
+      "Chand Sifarish (Fanaa)",
+      "Bol Kaffara Kya Hoga",
+      "Chikni Chameli (Agneepath)",
+      "Aaye Haaye"
+    ]
+  },
+  "Rock": {
+    "title": "Rock & Roll",
+    "color": "rgb(0, 0, 0)",
+    "picture": "/database/picture/stocks/rock.webp",
+    "content": [
+      "Tum Hi Ho (Aashiqui 2)",
+      "Hum Mar Jayenge (Aashiqui 2)",
+      "Milne Hai Mujhse Aayi (Aashiqui 2)",
+      "Zara Sa (Jannat)",
+      "Main Agar Kahoon (Om Shanti Om)",
+      "Deewangi Deewangi (Om Shanti Om)"
+    ]
+  },
+  "EDM": {
+    "title": "Electronic Beats",
+    "color": "rgb(0, 102, 102)",
+    "picture": "/database/picture/stocks/edm.webp",
+    "content": [
+      "Allah Duhai Hai (Race 2)",
+      "Party On My Mind (Race 2)",
+      "Zihaal E Miskin",
+      "Sawan Mein Lag Gayi Aag(Ginny Weds Sunny)",
+      "Kala Chashma(Baar Baar Dekho)",
+      "Cheez Badi(Machine)",
+      "Be Intehaan (Race 2)"
+    ]
+  },
+  "Classical": {
+    "title": "Timeless Classical",
+    "color": "rgb(20, 144, 07)",
+    "picture": "/database/picture/stocks/classical.webp",
+    "content": [
+      "Ajab Si (Om Shanti Om)",
+      "Chaar Kadam (PK)",
+      "O Re Piya (Aaja Nachle)",
+      "Labon Ko (Bhool Bhulaiyaa)",
+      "Sajda (My Name Is Khan)",
+      "Main Agar Kahoon (Om Shanti Om)",
+      "Piya Aaye Na (Aashiqui 2)",
+      "Mere Haath Mein (Fanaa)"
+    ]
+  },
+  "Love": {
+    "title": "Love and Romance",
+    "color": "rgb(204, 58, 50)",
+    "picture": "/database/picture/stocks/love.webp",
+    "content": [
+      "Lat Lag Gayee (Race 2)",
+      "Chikni Chameli (Agneepath)",
+      "Party On My Mind (Race 2)",
+      "Angaaron (Pushpa 2 The Rule)",
+      "Chalao Na Naino Se (Bol Bachchan)",
+      "Cheez Badi (Machine)",
+      "Kala Chashma (Baar Baar Dekho)",
+      "Peecha Chhute (Ramaiya Vastavaiya)"
+    ]
+  },
+  "Party": {
+    "title": "Party Starters",
+    "color": "rgb(204, 0, 153)",
+    "picture": "/database/picture/stocks/party.webp",
+    "content": [
+      "Lat Lag Gayee (Race 2)",
+      "Chikni Chameli (Agneepath)",
+      "Party On My Mind (Race 2)",
+      "Kala Chashma (Baar Baar Dekho)",
+      "Cheez Badi (Machine)",
+      "Chalao Na Naino Se (Bol Bachchan)",
+      "Peecha Chhute (Ramaiya Vastavaiya)"
+    ]
+  },
+  "Workout": {
+    "title": "Workout Energy",
+    "color": "rgb(150, 110, 0)",
+    "picture": "/database/picture/stocks/workout.webp",
+    "content": [
+      "Lat Lag Gayee (Race 2)",
+      "Chikni Chameli (Agneepath)",
+      "Party On My Mind (Race 2)",
+      "Kala Chashma (Baar Baar Dekho)",
+      "Cheez Badi (Machine)",
+      "Angaaron (Pushpa 2 The Rule)",
+      "Sawan Mein Lag Gayi Aag (Ginny Weds Sunny)",
+      "Aaye Haaye",
+      "Maahi Ve (Wajah Tum Ho)",
+      "Chalao Na Naino Se (Bol Bachchan)"
+    ]
+  },
+  "Chill": {
+    "title": "Chill Zone",
+    "color": "rgb(32, 139, 124)",
+    "picture": "/database/picture/stocks/chill.webp",
+    "content": [
+      "Jeene Laga Hoon (Ramaiya Vastavaiya)",
+      "Shayad (Love Aaj Kal)",
+      "Main Rang Sharbaton Ka (Phata Poster Nikhla Hero)",
+      "Pehli Nazar Mein (Race)",
+      "Tera Hone Laga Hoon (Ajab Prem Ki Ghazab Kahani)",
+      "Piya O Re Piya (Tere Naal Love Ho Gaya)",
+      "Chaar Kadam (PK)",
+      "O Rangrez (Bhaag Milkha Bhaag)",
+      "Dil Ko Karaar Aaya (Sukoon)"
+    ]
+  },
+  "Focus": {
+    "title": "Focus Flow",
+    "color": "rgb(0, 139, 179)",
+    "picture": "/database/picture/stocks/focus.webp",
+    "content": [
+      "Main Kya Hoon (Love Aaj Kal)",
+      "Ajab Si (Om Shanti Om)",
+      "Tu Hi Meri Shab Hai (Gangster)",
+      "Main Jahaan Rahoon (Namastey London)",
+      "Chaar Kadam (PK)",
+      "Sajda (My Name Is Khan)",
+      "Mere Haath Mein (Fanaa)",
+      "O Re Piya (Aaja Nachle)",
+      "Labon Ko (Bhool Bhulaiyaa)"
+    ]
+  },
+  "Sad": {
+    "title": "Feel the Feels",
+    "color": "rgb(82, 46, 157)",
+    "picture": "/database/picture/stocks/sad.webp",
+    "content": [
+      "Judai (Jannat)",
+      "Kaash Tu Mila Hota (Code Blue)",
+      "Main Jis Din Bhulaa Du",
+      "Dil Ibaadat (Tum Mile)",
+      "Milne Hai Mujhse Aayi (Aashiqui 2)",
+      "Sach Keh Raha Hai Deewana (Rehnaa Hai Terre Dil Mein)"
+    ]
+  },
+  "Happy": {
+    "title": "Feel-Good Tunes",
+    "color": "rgb(220, 100, 0)",
+    "picture": "/database/picture/stocks/happy.webp",
+    "content": [
+      "Sajde (Khatta Meetha)",
+      "Chaar Kadam (PK)",
+      "Chalao Na Naino Se (Bol Bachchan)",
+      "Chand Sifarish (Fanaa)",
+      "Cheez Badi(Machine)",
+      "Chanda Chamke (Fanaa)"
+    ]
+  },
+  "Retro": {
+    "title": "Retro Rewind",
+    "color": "rgb(204, 0, 0)",
+    "picture": "/database/picture/stocks/retro.webp",
+    "content": [
+      "Pehli Nazar Mein (Race)",
+      "Dil Diyan Gallan (Tiger Zinda Hai)",
+      "Chand Sifarish (Fanaa)",
+      "Aashiqui 2"
+    ]
+  },
+  "Instrumental": {
+    "title": "Instrumental Bliss",
+    "color": "rgb(0, 44, 212)",
+    "picture": "/database/picture/stocks/instrumental.webp",
+    "content": [
+      "Ajab Si (Om Shanti Om)",
+      "O Rangrez (Bhaag Milkha Bhaag)",
+      "Chaar Kadam (PK)",
+      "Main Agar Kahoon (Om Shanti Om)",
+      "Mere Haath Mein (Fanaa)",
+      "Labon Ko (Bhool Bhulaiyaa)",
+      "Dil Ibaadat (Tum Mile)",
+      "Piya Aaye Na (Aashiqui 2)",
+      "Sajda (My Name Is Khan)"
+    ]
+  }
+}

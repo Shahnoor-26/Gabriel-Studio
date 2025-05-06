@@ -1,0 +1,123 @@
+{
+  "Ajab Prem Ki Ghazab Kahani": {
+    "title": "Ajab Prem Ki Ghazab Kahani",
+    "target": "Album",
+    "status": "Verified Album",
+    "description": "Ajab Prem Ki Ghazab Kahani (2009) is a Hindi romantic comedy film directed by Rajkumar Santoshi, starring Ranbir Kapoor and Katrina Kaif in the lead roles. The film was a big hit and is remembered for its quirky humor, catchy music, and the charming chemistry between the lead pair.",
+    "picture": "/database/picture/albums/ajab-prem-ki-ghazab-kahani.webp",
+    "content": [
+      "Tera Hone Laga Hoon (Ajab Prem Ki Ghazab Kahani)",
+      "Tu Jaane Na (Ajab Prem Ki Ghazab Kahani)",
+      "Main Tera Dhadkan Teri (Ajab Prem Ki Ghazab Kahani)",
+      "Oh By God (Ajab Prem Ki Ghazab Kahani)"
+    ]
+  },
+  "Jannat": {
+    "title": "Jannat",
+    "target": "Album",
+    "status": "Verified Album",
+    "description": "Jannat is a romantic crime drama about Arjun, a small-time gambler who enters the world of cricket match-fixing in pursuit of money and luxury. As he falls for Zoya, he struggles between love and greed, ultimately facing the consequences of chasing a heaven built on crime.",
+    "picture": "/database/picture/albums/jannat.webp",
+    "content": [
+      "Haan Tu Hain (Jannat)",
+      "Zara Sa (Jannat)",
+      "Door Na Ja (Jannat)",
+      "Judai (Jannat)"
+    ]
+  },
+  "Om Shanti Om": {
+    "title": "Om Shanti Om",
+    "target": "Album",
+    "status": "Verified Album",
+    "description": "Om Shanti Om is a romantic reincarnation drama where a junior actor in the 1970s, Om (Shah Rukh Khan), dies tragically and is reborn in the present day to avenge the murder of his love, superstar Shantipriya (Deepika Padukone). Filled with drama, music, glamour, and nostalgia, the film is a tribute to Bollywood itself, blending comedy, romance, and revenge in a dazzling cinematic package.",
+    "picture": "/database/picture/albums/om-shanti-om.webp",
+    "content": [
+      "Ajab Si (Om Shanti Om)",
+      "Main Agar Kahoon (Om Shanti Om)",
+      "Dastaan-E-Om Shanti Om (Om Shanti Om)",
+      "Deewangi Deewangi (Om Shanti Om)",
+      "Jag Soona Soona Lage (Om Shanti Om)"
+    ]
+  },
+  "Race 2": {
+    "title": "Race 2",
+    "target": "Album",
+    "status": "Verified Album",
+    "description": "Race 2 is a high-octane action thriller packed with twists, betrayal, and glamorous thrills. The story follows Ranvir Singh (Saif Ali Khan), who enters the dangerous world of crime and deceit to avenge a personal loss. As alliances shift and secrets unfold, nothing is what it seems in this slick game of money, power, and revenge. With a star-studded cast, exotic locations, and chartbuster music, Race 2 is a rollercoaster of suspense and style.",
+    "picture": "/database/picture/albums/race-2.webp",
+    "content": [
+      "Allah Duhai Hai (Race 2)",
+      "Be Intehaan (Race 2)",
+      "Lat Lag Gayee (Race 2)",
+      "Party On My Mind (Race 2)"
+    ]
+  },
+  "Ramaiya Vastavaiya": {
+    "title": "Ramaiya Vastavaiya",
+    "target": "Album",
+    "status": "Verified Album",
+    "description": "Ramaiya Vastavaiya is a romantic drama that tells the story of Ram, a wealthy and carefree NRI, who falls in love with Sona, a simple village girl. When Ram follows her to her rural hometown, he must prove himself to her strict brother by adapting to village life and earning his love and respect. Full of emotion, music, and family values, the film is a heartwarming tale of love crossing social boundaries.",
+    "picture": "/database/picture/albums/ramaiya-vastavaiya.webp",
+    "content": [
+      "Bairiyaa (Ramaiya Vastavaiya)",
+      "Jeene Laga Hoon (Ramaiya Vastavaiya)",
+      "Rang Jo Lagyo (Ramaiya Vastavaiya)",
+      "Peecha Chhute (Ramaiya Vastavaiya)"
+    ]
+  },
+  "Fanaa": {
+    "title": "Fanaa",
+    "target": "Album",
+    "status": "Verified Album",
+    "description": "Fanaa (2006) is a romantic thriller starring Aamir Khan and Kajol. It follows Zooni, a blind girl who falls for Rehan, a charming guide with a dark secret—he’s actually a terrorist. The film blends love, betrayal, and suspense, and features hit songs like Chand Sifarish and Mere Haath Mein. It was a major hit and marked Kajol’s big comeback.",
+    "picture": "/database/picture/albums/fanaa.webp",
+    "content": [
+      "Chand Sifarish (Fanaa)",
+      "Chanda Chamke (Fanaa)",
+      "Dekho Na (Fanaa)",
+      "Mere Haath Mein (Fanaa)"
+    ]
+  },
+  "Phata Poster Nikhla Hero": {
+    "title": "Phata Poster Nikhla Hero",
+    "target": "Album",
+    "status": "Verified Album",
+    "description": "Phata Poster Nikhla Hero (2013) is a Bollywood action-comedy starring Shahid Kapoor and Ileana D'Cruz. It follows Vishwas, an aspiring actor who’s mistaken for a real cop, leading to hilarious chaos. Directed by Rajkumar Santoshi, it features fun songs like Tu Mere Agal Bagal Hai, but got mixed reviews and didn't do well at the box office.",
+    "picture": "/database/picture/albums/phata-poster-nikhla-hero.webp",
+    "content": [
+      "Dhating Naach (Phata Poster Nikhla Hero)",
+      "Janam Janam (Phata Poster Nikhla Hero)",
+      "Main Rang Sharbaton Ka (Phata Poster Nikhla Hero)",
+      "Mere Bina Tu (Phata Poster Nikhla Hero)",
+      "Tu Mere Agal Bagal Hai (Phata Poster Nikhla Hero)"
+    ]
+  },
+  "Love Aaj Kal": {
+    "title": "Love Aaj Kal",
+    "target": "Album",
+    "status": "Verified Album",
+    "description": "Love Aaj Kal (2009) is a romantic drama directed by Imtiaz Ali, starring Saif Ali Khan and Deepika Padukone. It explores love across two eras—modern-day and the past—showing how love may change with time, but the feelings remain the same. Known for its soulful music like Ajj Din Chadheya and Dooriyan, the film was a hit and praised for its fresh take on relationships.",
+    "picture": "/database/picture/albums/love-aaj- kal.webp",
+    "content": [
+      "Ajj Din Chadheya (Love Aaj Kal)",
+      "Chor Bazari (Love Aaj Kal)",
+      "Dooriyan (Love Aaj Kal)",
+      "Main Kya Hoon (Love Aaj Kal)",
+      "Thoda Thoda Pyar (Love Aaj Kal)"
+    ]
+  },
+  "Aashiqui 2": {
+    "title": "Aashiqui 2",
+    "target": "Album",
+    "status": "Verified Album",
+    "description": "Aashiqui 2 (2013) is a romantic musical drama starring Aditya Roy Kapur and Shraddha Kapoor. It tells the emotional story of a fading singer who helps a young woman rise to fame, while battling his own struggles with alcoholism. Known for its heartfelt story and a hugely popular soundtrack like Tum Hi Ho and Sunn Raha Hai, the film was a massive hit and became a modern love story classic.",
+    "picture": "/database/picture/albums/aashiqui-2.webp",
+    "content": [
+      "Hum Mar Jayenge (Aashiqui 2)",
+      "Meri Aashiqui (Aashiqui 2)",
+      "Milne Hai Mujhse Aayi (Aashiqui 2)",
+      "Tum Hi Ho (Aashiqui 2)",
+      "Piya Aaye Na (Aashiqui 2)"
+    ]
+  }
+}

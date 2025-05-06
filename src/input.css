@@ -1,0 +1,190 @@
+@import "tailwindcss";
+
+::-webkit-scrollbar {
+  height: 0%;
+  width: 0%;
+}
+
+body {
+  color: white;
+  background-color: black;
+}
+
+/* Animation */
+#spin {
+  display: inline-block;
+  border: 3px solid transparent;
+  border-radius: 50%;
+  border-top-color: rgba(237, 37, 78, 1);
+  border-right-color: rgba(16, 16, 16, 1);
+  border-bottom-color: rgba(5, 5, 5, 1);
+  border-left-color: rgba(237, 37, 78, 0.5);
+  animation: rotator 1s linear infinite;
+}
+
+#flow {
+  color: transparent;
+  background: linear-gradient(
+    90deg,
+    rgba(237, 37, 78, 1),
+    rgba(16, 16, 16, 1),
+    rgba(5, 5, 5, 1),
+    rgba(237, 37, 78, 0.5)
+  );
+  background-size: 400% 100%;
+  background-position: 100% 0%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: colorful 5s linear infinite;
+  white-space: nowrap;
+  transition: all 250ms ease-in-out;
+}
+
+@keyframes colorful {
+  0% {
+    background-position: 100% 0%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+@keyframes rotator {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* location (index) */
+#temp-box li svg {
+  position: absolute;
+  bottom: 0%;
+  right: 8%;
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+}
+
+#temp-box li:hover svg {
+  bottom: 28%;
+  opacity: 1;
+}
+
+/* location (folder) */
+#compact li svg {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+}
+
+#compact li:hover svg {
+  right: 5%;
+  opacity: 1;
+}
+
+#grid-view li svg {
+  position: absolute;
+  bottom: 0%;
+  right: 8%;
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+}
+
+#grid-view li:hover svg {
+  bottom: 32%;
+  opacity: 1;
+}
+
+#fol-data li svg {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+}
+
+#fol-data li:hover svg {
+  left: 1.5%;
+  opacity: 1;
+}
+
+/* location (search) */
+#result li svg {
+  position: absolute;
+  bottom: 0%;
+  right: 8%;
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+}
+
+#result li:hover svg {
+  bottom: 28%;
+  opacity: 1;
+}
+
+select {
+  color: rgba(237, 37, 78, 1);
+  background-color: rgba(5, 5, 5, 1);
+}
+
+select option {
+  background-color: transparent;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 640px) {
+  /* location (index) */
+  #temp-box li:hover svg {
+    bottom: 34%;
+  }
+
+  /* location (folder) */
+  #fol-data li:hover svg {
+    left: 1%;
+  }
+
+  /* location (search) */
+  #result li:hover svg {
+    bottom: 34%;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 768px) {
+  /* location (index) */
+  #temp-box li:hover svg {
+    bottom: 32%;
+  }
+
+  /* location (folder) */
+  #grid-view li:hover svg {
+    bottom: 34%;
+  }
+
+  #fol-data li:hover svg {
+    left: 1%;
+  }
+
+  /* location (search) */
+  #result li:hover svg {
+    bottom: 32%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* location (folder) */
+  #grid-view li:hover svg {
+    bottom: 34%;
+  }
+
+  #fol-data li:hover svg {
+    left: 1%;
+  }
+}

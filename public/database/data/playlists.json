@@ -1,0 +1,288 @@
+{
+  "Romantic Summer": {
+    "title": "Romantic Summer",
+    "target": "Playlist",
+    "status": "Verified Playlist",
+    "description": "Feel the love in the air with these breezy, heartwarming romantic hits perfect for summer vibes.",
+    "picture": "/database/picture/playlists/romantic-summer.webp",
+    "content": [
+      "Tum Hi Ho (Aashiqui 2)",
+      "Tera Hone Laga Hoon (Ajab Prem Ki Ghazab Kahani)",
+      "Jeene Laga Hoon (Ramaiya Vastavaiya)",
+      "Shayad (Love Aaj Kal)",
+      "Main Rang Sharbaton Ka (Phata Poster Nikhla Hero)",
+      "Dil Ko Karaar Aaya (Sukoon)",
+      "Mere Yaaraa (Sooryavanshi)",
+      "Ajj Din Chadheya (Love Aaj Kal)",
+      "Mast Aankhein",
+      "Piya O Re Piya (Tere Naal Love Ho Gaya)"
+    ]
+  },
+  "Best of Arijit Singh": {
+    "title": "Best of Arijit Singh",
+    "target": "Playlist",
+    "status": "Verified Playlist",
+    "description": "A collection of soulful melodies and unforgettable romantic ballads by Arijit Singh.",
+    "picture": "/database/picture/playlists/best-of-arijit-singh.webp",
+    "content": [
+      "Tum Hi Ho (Aashiqui 2)",
+      "Shayad (Love Aaj Kal)",
+      "Dil Diyan Gallan (Tiger Zinda Hai)",
+      "Phir Aur Kya Chahiye (Zara Hatke Zara Bachke)",
+      "Main Rang Sharbaton Ka (Phata Poster Nikhla Hero)",
+      "Khairiyat (Chhichhore)",
+      "Mere Yaaraa (Sooryavanshi)",
+      "Dil Ko Karaar Aaya (Sukoon)",
+      "Tu Jaane Na (Ajab Prem Ki Ghazab Kahani)"
+    ]
+  },
+  "Heartbreak Hits": {
+    "title": "Heartbreak Hits",
+    "target": "Playlist",
+    "status": "Verified Playlist",
+    "description": "Songs for when you're healing from a broken heart. Let the music say what words can't.",
+    "picture": "/database/picture/playlists/heartbreak-hits.webp",
+    "content": [
+      "Judai (Jannat)",
+      "Milne Hai Mujhse Aayi (Aashiqui 2)",
+      "Main Jis Din Bhulaa Du",
+      "Dooriyan (Love Aaj Kal)",
+      "Dil Ibaadat (Tum Mile)",
+      "Meri Aashiqui",
+      "Kaash Tu Mila Hota (Code Blue)",
+      "Zara Sa (Jannat)",
+      "Ajnabi Hawaayein Bekrara Bahein (Shaapit)",
+      "Mast Nazron Se"
+    ]
+  },
+  "Love Dance Hits": {
+    "title": "Love Dance Hits",
+    "target": "Playlist",
+    "status": "Verified Playlist",
+    "description": "Romantic beats to groove to! Perfect for a night of love and dance.",
+    "picture": "/database/picture/playlists/love-dance-hits.webp",
+    "content": [
+      "Lat Lag Gayee (Race 2)",
+      "Chikni Chameli (Agneepath)",
+      "Party On My Mind (Race 2)",
+      "Angaaron (Pushpa 2 The Rule)",
+      "Chalao Na Naino Se (Bol Bachchan)",
+      "Cheez Badi (Machine)",
+      "Kala Chashma (Baar Baar Dekho)",
+      "Peecha Chhute (Ramaiya Vastavaiya)",
+      "Sawan Mein Lag Gayi Aag (Ginny Weds Sunny)"
+    ]
+  },
+  "Top 50 Hindi Hits": {
+    "title": "Top 50 Hindi Hits",
+    "target": "Playlist",
+    "status": "Verified Playlist",
+    "description": "All-time favorite Bollywood chartbusters compiled in one powerful playlist.",
+    "picture": "/database/picture/playlists/top-50-hindi-hits.webp",
+    "content": [
+      "Tum Hi Ho (Aashiqui 2)",
+      "Tera Hone Laga Hoon (Ajab Prem Ki Ghazab Kahani)",
+      "Lat Lag Gayee (Race 2)",
+      "Dil Diyan Gallan (Tiger Zinda Hai)",
+      "Kala Chashma (Baar Baar Dekho)",
+      "Chikni Chameli (Agneepath)",
+      "Khairiyat (Chhichhore)",
+      "Main Agar Kahoon (Om Shanti Om)",
+      "Shayad (Love Aaj Kal)",
+      "Phir Aur Kya Chahiye (Zara Hatke Zara Bachke)",
+      "Peecha Chhute (Ramaiya Vastavaiya)",
+      "Be Intehaan (Race 2)",
+      "Mere Bina Tu (Phata Poster Nikhla Hero)",
+      "Deewani Mastani (Bajirao Mastani)",
+      "Bol Na Halke Halke (Jhoom Barabar Jhoom)",
+      "Ajnabi Hawaayein Bekrara Bahein (Shaapit)",
+      "Tu Hi Meri Shab Hai (Gangster)",
+      "Taaron Ke Shehar",
+      "Main Jis Din Bhulaa Du",
+      "Judai (Jannat)",
+      "Milne Hai Mujhse Aayi (Aashiqui 2)",
+      "Cheez Badi (Machine)",
+      "Jeene Laga Hoon (Ramaiya Vastavaiya)",
+      "Kuch To Hua Hai (Kal Ho Naa Ho)",
+      "Main Rang Sharbaton Ka (Phata Poster Nikhla Hero)",
+      "Mere Yaaraa (Sooryavanshi)",
+      "Meri Aashiqui",
+      "Piya Aaye Na (Aashiqui 2)",
+      "Oh By God (Ajab Prem Ki Ghazab Kahani)",
+      "Zara Sa (Jannat)",
+      "Deva Deva (Brahmastra)",
+      "Woh Ladki Hai Kahan (Dil Chahta Hai)",
+      "Soulmate (Ek Tha Raja)",
+      "Chand Sifarish (Fanaa)",
+      "O Re Piya (Aaja Nachle)",
+      "Chalao Na Naino Se (Bol Bachchan)",
+      "Pehli Nazar Mein (Race)",
+      "Janam Janam (Phata Poster Nikhla Hero)",
+      "Rang Jo Lagyo (Ramaiya Vastavaiya)",
+      "Tu Jo Mila (Bajrangi Bhaijaan)",
+      "Tum Jo Aaye Jindagi (Once Upon A Time In Mumbaai)"
+    ]
+  },
+  "Shreya Ghoshal Romance": {
+    "title": "Shreya Ghoshal Romance",
+    "target": "Playlist",
+    "status": "Verified Playlist",
+    "description": "A soft, melodious ride through the most romantic songs by Shreya Ghoshal.",
+    "picture": "/database/picture/playlists/shreya-ghoshal-romance.webp",
+    "content": [
+      "Tera Hone Laga Hoon (Ajab Prem Ki Ghazab Kahani)",
+      "Jeene Laga Hoon (Ramaiya Vastavaiya)",
+      "Ajj Din Chadheya (Love Aaj Kal)",
+      "Piya O Re Piya (Tere Naal Love Ho Gaya)"
+    ]
+  },
+  "Best of KK": {
+    "title": "Best of KK",
+    "target": "Playlist",
+    "status": "Verified Playlist",
+    "description": "Relive the magic of KK with these unforgettable classics that defined an era.",
+    "picture": "/database/picture/playlists/best-of-kk.webp",
+    "content": [
+      "Zara Sa (Jannat)",
+      "Labon Ko (Bhool Bhulaiyaa)",
+      "Dil Ibaadat (Tum Mile)",
+      "Tu Hi Meri Shab Hai (Gangster)",
+      "Kuch To Hua Hai (Kal Ho Naa Ho)",
+      "Judai (Jannat)"
+    ]
+  },
+  "Top Romantic Bollywood": {
+    "title": "Top Romantic Bollywood",
+    "target": "Playlist",
+    "status": "Verified Playlist",
+    "description": "The most heart-touching romantic tracks from across decades of Bollywood.",
+    "picture": "/database/picture/playlists/top-romantic-bollywood.webp",
+    "content": [
+      "Tum Hi Ho (Aashiqui 2)",
+      "Tera Hone Laga Hoon (Ajab Prem Ki Ghazab Kahani)",
+      "Ajj Din Chadheya (Love Aaj Kal)",
+      "Main Agar Kahoon (Om Shanti Om)",
+      "Shayad (Love Aaj Kal)",
+      "Milne Hai Mujhse Aayi (Aashiqui 2)"
+    ]
+  },
+  "Feel Good Hits": {
+    "title": "Feel Good Hits",
+    "target": "Playlist",
+    "status": "Verified Playlist",
+    "description": "Relax and stay productive with these calming Bollywood tracks perfect for workday background.",
+    "picture": "/database/picture/playlists/feel-good-hits.webp",
+    "content": [
+      "Dil Ko Karaar Aaya (Sukoon)",
+      "Kaash Tu Mila Hota (Code Blue)",
+      "Main Jahaan Rahoon (Namastey London)",
+      "Soulmate (Ek Tha Raja)",
+      "Mast Aankhein",
+      "O Re Piya (Aaja Nachle)",
+      "Tu Jo Mila (Bajrangi Bhaijaan)",
+      "Zara Sa (Jannat)",
+      "Khairiyat (Chhichhore)"
+    ]
+  },
+  "Top 5 Party Starters": {
+    "title": "Top 5 Party Starters",
+    "target": "Playlist",
+    "status": "Verified Playlist",
+    "description": "Start your party with these Bollywood bangers!",
+    "picture": "/database/picture/playlists/top-5-party-starters.webp",
+    "content": [
+      "Lat Lag Gayee (Race 2)",
+      "Chikni Chameli (Agneepath)",
+      "Party On My Mind (Race 2)",
+      "Kala Chashma (Baar Baar Dekho)",
+      "Cheez Badi (Machine)"
+    ]
+  },
+  "Soothing Classics": {
+    "title": "Soothing Classics",
+    "target": "Playlist",
+    "status": "Verified Playlist",
+    "description": "A beautiful blend of classic and modern soothing Bollywood tracks for peaceful moments.",
+    "picture": "/database/picture/playlists/soothing-classics.webp",
+    "content": [
+      "Ajab Si (Om Shanti Om)",
+      "Chaar Kadam (PK)",
+      "O Re Piya (Aaja Nachle)",
+      "Labon Ko (Bhool Bhulaiyaa)",
+      "Sajda (My Name Is Khan)",
+      "Main Agar Kahoon (Om Shanti Om)",
+      "Piya Aaye Na (Aashiqui 2)",
+      "Mere Haath Mein (Fanaa)"
+    ]
+  },
+  "Workout Hits": {
+    "title": "Workout Hits",
+    "target": "Playlist",
+    "status": "Verified Playlist",
+    "description": "A high-energy playlist to fuel your workout and push you through every rep.",
+    "picture": "/database/picture/playlists/workout-hits.webp",
+    "content": [
+      "Kala Chashma (Baar Baar Dekho)",
+      "Pehli Nazar Mein (Race)",
+      "Lat Lag Gayee (Race 2)",
+      "Chikni Chameli (Agneepath)",
+      "Party On My Mind (Race 2)",
+      "Cheez Badi (Machine)",
+      "Angaaron (Pushpa 2 The Rule)"
+    ]
+  },
+  "Best of Sunidhi Chauhan": {
+    "title": "Best of Sunidhi Chauhan",
+    "target": "Playlist",
+    "status": "Verified Playlist",
+    "description": "A collection of Sunidhi Chauhan's top songs, showcasing her dynamic voice and unforgettable performances.",
+    "picture": "/database/picture/playlists/best-of-sunidhi-chauhan.webp",
+    "content": [
+      "Thoda Thoda Pyar (Love Aaj Kal)",
+      "Sajde (Khatta Meetha)",
+      "Oh By God (Ajab Prem Ki Ghazab Kahani)",
+      "Mere Haath Mein (Fanaa)",
+      "Main Tera Dhadkan Teri (Ajab Prem Ki Ghazab Kahani)",
+      "Dekho Na (Fanaa)",
+      "Aankh"
+    ]
+  },
+  "Arijit Singh Romance": {
+    "title": "Arijit Singh Romance",
+    "target": "Playlist",
+    "status": "Verified Playlist",
+    "description": "A soulful compilation of Arijit Singh's most romantic and heart-touching songs.",
+    "picture": "/database/picture/playlists/arijit-singh-romance.webp",
+    "content": [
+      "Hum Mar Jayenge (Aashiqui 2)",
+      "Phir Aur Kya Chahiye (Zara Hatke Zara Bachke)",
+      "Khairiyat (Chhichhore)",
+      "Shayad(Love Aaj Kal)",
+      "Apna Bana Le Song (Bhediya)",
+      "Meri Aashiqui (Aashiqui 2)",
+      "Tum Hi Ho (Aashiqui 2)"
+    ]
+  },
+  "Midnight Hour": {
+    "title": "Midnight Hour",
+    "target": "Playlist",
+    "status": "Verified Playlist",
+    "description": "A collection of mellow and soothing songs to enjoy the serenity of the midnight hour.",
+    "picture": "/database/picture/playlists/midnight-hour.webp",
+    "content": [
+      "Ajab Si (Om Shanti Om)",
+      "Ajj Din Chadheya (Love Aaj Kal)",
+      "Chand Sifarish (Fanaa)",
+      "Dil Diyan Gallan (Tiger Zinda Hai)",
+      "Dil Ko Karaar Aaya (Sukoon)",
+      "Jeene Laga Hoon (Ramaiya Vastavaiya)",
+      "Zara Sa (Jannat)",
+      "Tum Jo Aaye Jindagi (Once Upon A Time In Mumbaai)",
+      "Chand Sifarish (Fanaa)",
+      "Dil Ko Karaar Aaya (Sukoon)",
+      "Tum Hi Ho (Aashiqui 2)",
+      "Pehli Nazar Mein (Race)",
+      "Main Agar Kahoon (Om Shanti Om)"
+    ]
+  }
+}
