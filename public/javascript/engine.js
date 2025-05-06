@@ -218,7 +218,10 @@ const updateUI = async (source) => {
       forInDet.children[1].children[3].textContent = composer; // Set composer
       forInDet.children[1].children[5].textContent = artists; // Set album artist
 
-      vfile = "./database/video/Sawan Mein Lag Gayi Aag (Ginny Weds Sunny).mp4";
+      if (file === "Sawan Mein Lag Gayi Aag (Ginny Weds Sunny)") {
+        vfile =
+          "./database/video/Sawan Mein Lag Gayi Aag (Ginny Weds Sunny).mp4";
+      }
 
       if (vfile) {
         // Elements interface (info screen)
