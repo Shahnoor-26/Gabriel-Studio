@@ -203,7 +203,7 @@ const main = async () => {
         if (!object || typeof object !== "object") return; // Validation check
 
         localStorage.setItem("object", JSON.stringify(object[data])); // Store batch in storage
-        window.location.href = "/folder.html"; // Redirect to folder page
+        window.location.href = "/folder"; // Redirect to folder page
       }
     });
 
@@ -240,7 +240,7 @@ const main = async () => {
         forMargin.children[0].textContent = text; // Set text
       } else {
         sessionStorage.setItem("query", content); // Store query in session storage
-        window.location.href = "/search.html"; // Redirect to same page
+        window.location.href = "/search"; // Redirect to same page
       }
     });
 

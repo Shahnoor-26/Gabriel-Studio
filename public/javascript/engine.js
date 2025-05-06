@@ -68,14 +68,7 @@ let alpha = {
 };
 
 const forAudio = new Audio(); // Audio object
-const pathway = [
-  "/",
-  "/index.html",
-  "/folder",
-  "/folder.html",
-  "/search",
-  "/search.html",
-]; // Pathway object
+const pathway = ["/", "/folder", "/search"]; // Pathway object
 
 // Function to handle storage changes
 export const shift = () => {
@@ -213,7 +206,7 @@ const updateUI = async (source) => {
     });
 
     // Location based interface update (folder)
-    if (location.pathname === "/folder.html") {
+    if (location.pathname === "/folder") {
       // Elements interface (depth, no depth)
       forDepth.style.display = "block";
       forNoDepth.style.display = "none";
@@ -380,7 +373,7 @@ if (pathway.includes(location.pathname)) {
       });
 
       // Location based interface update (folder)
-      if (location.pathname === "/folder.html" && vfile) {
+      if (location.pathname === "/folder" && vfile) {
         forInSeen.children[1].play(); // Play video
       }
     });
@@ -393,7 +386,7 @@ if (pathway.includes(location.pathname)) {
       });
 
       // Location based interface update (folder)
-      if (location.pathname === "/folder.html" && vfile) {
+      if (location.pathname === "/folder" && vfile) {
         forInSeen.children[1].pause(); // Pause video
       }
     });
@@ -672,7 +665,7 @@ if (pathway.includes(location.pathname)) {
         forAudio.currentTime = (percent / 100) * forAudio.duration; // Set current time
 
         // Location based interface update (folder)
-        if (location.pathname === "/folder.html" && vfile) {
+        if (location.pathname === "/folder" && vfile) {
           const data = (percent / 100) * forInSeen.children[1].duration; // Set current time
           forInSeen.children[1].currentTime = data;
         }
@@ -778,7 +771,7 @@ try {
   if (forFunBtn) {
     forFunBtn.addEventListener("click", () => {
       sessionStorage.setItem("query", ""); // Reset query in session storage
-      window.location.href = "/search.html"; // Redirect to search page
+      window.location.href = "/search"; // Redirect to search page
     });
   }
 
@@ -789,19 +782,19 @@ try {
       const query = target ? target.value.trim() : ""; // Get query
 
       sessionStorage.setItem("query", query); // Store query in session storage
-      window.location.href = "/search.html"; // Redirect to search page
+      window.location.href = "/search"; // Redirect to search page
     });
   });
 
   // Element interface touch event (menu box)
   forMenu.children[3].addEventListener("click", () => {
     sessionStorage.setItem("query", ""); // Reset query in session storage
-    window.location.href = "/search.html"; // Redirect to search page
+    window.location.href = "/search"; // Redirect to search page
   });
 
   // Element interface touch event (menu box)
   forMenu.children[0].addEventListener("click", () => {
-    window.location.href = "/index.html"; // Redirect to index page
+    window.location.href = "/"; // Redirect to index page
   });
 
   // Elements interface data (motion box)

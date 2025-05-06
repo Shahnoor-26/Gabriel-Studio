@@ -125,7 +125,7 @@ const folTouch = (target, object) => {
       if (!title && typeof object[title] !== "object") return; // Validation check
 
       localStorage.setItem("object", JSON.stringify(object[title])); // Store object in storage
-      window.location.href = "/folder.html"; // Redirect to folder page
+      window.location.href = "/folder"; // Redirect to folder page
     });
   } catch (error) {
     console.log(error);
@@ -156,7 +156,7 @@ const main = async () => {
       target.children[1].addEventListener("click", () => {
         const label = target.dataset.label ?? ""; // Retrieve label
         sessionStorage.setItem("query", label); // Store query in session storage
-        window.location.href = "/search.html"; // Redirect to search page
+        window.location.href = "/search"; // Redirect to search page
       });
     });
   } catch (error) {

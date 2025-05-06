@@ -180,7 +180,7 @@ const main = async () => {
       if (!title && !touch && typeof touch !== "object") return; // Validation check
 
       localStorage.setItem("object", JSON.stringify(touch)); // Store object in storage
-      window.location.href = "/folder.html"; // Redirect to folder page
+      window.location.href = "/folder"; // Redirect to folder page
     });
 
     // Elements interface touch event (grid)
@@ -192,7 +192,7 @@ const main = async () => {
       if (!title && !touch && typeof touch !== "object") return; // Validation check
 
       localStorage.setItem("object", JSON.stringify(touch)); // Store object in storage
-      window.location.href = "/folder.html"; // Redirect to folder page
+      window.location.href = "/folder"; // Redirect to folder page
     });
 
     // Elements interface touch event (view box)
@@ -251,7 +251,7 @@ const main = async () => {
 
     // Button functionality (refresh)
     forFreshBtn.addEventListener("click", () => {
-      window.location.href = "/folder.html"; // Reload the same page
+      window.location.href = "/folder"; // Reload the same page
     });
 
     // Button functionality (view)
