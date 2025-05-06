@@ -40,7 +40,7 @@ const stock = async (target, motion, file = "stock.json") => {
 
     for (let index = 0; index < keys.length; index++) {
       const path = object[keys[index]].picture; // Retrieve picture
-      const source = path ? await compressor(path) : "/public/template.webp"; // Picture compression
+      const source = path ? await compressor(path) : "./template.webp"; // Picture compression
       content.push({ label: keys[index], picture: source }); // Append object to content
     }
 
@@ -49,7 +49,7 @@ const stock = async (target, motion, file = "stock.json") => {
       const label = data.label ?? "Not Available";
       const color = object[label].color ?? "#ED254E";
       const title = object[label].title ?? "Not Available";
-      const picture = data.picture ?? "/public/template.webp";
+      const picture = data.picture ?? "./template.webp";
 
       const temp = target.children[0].cloneNode(true); // Clone template
       temp.dataset.label = label; // Set label
@@ -88,7 +88,7 @@ const found = async (target, motion, batch) => {
         // Retrieve data from metadata
         const title = data.title ?? "Not Available";
         const artist = data.artist ?? "Not Available";
-        const picture = data.picture ?? "/public/template.webp";
+        const picture = data.picture ?? "./template.webp";
 
         const temp = target.children[0].cloneNode(true); // Clone template
         temp.dataset.label = "audio"; // Set label
@@ -112,7 +112,7 @@ const found = async (target, motion, batch) => {
         // Retrieve data from object
         const title = batch.title ?? "Not Available";
         const label = batch.target ?? "Not Available";
-        const picture = batch.picture ?? "/public/template.webp";
+        const picture = batch.picture ?? "./template.webp";
 
         const temp = target.children[0]; // Create template
         temp.dataset.label = label; // Set label

@@ -3,9 +3,9 @@ import { audioInit } from "./engine.js";
 import { subset } from "./utils.js";
 
 // Path declaration for data, audio and video
-const dataPath = "http://127.0.0.1:5500/database/data/";
-const audioPath = "http://127.0.0.1:5500/database/audio/";
-const videoPath = "http://127.0.0.1:5500/database/video/";
+const dataPath = "./database/data/";
+const audioPath = "./database/audio/";
+const videoPath = "./database/video/";
 
 // Store paths in storage
 localStorage.setItem("data-path", dataPath);
@@ -33,7 +33,7 @@ const fileBit = async (target, motion, batch) => {
       // Retrieve data from metadata
       const title = data.title ?? "Not Available";
       const artist = data.artist ?? "Not Available";
-      const picture = data.picture ?? "/public/template.webp";
+      const picture = data.picture ?? "./template.webp";
 
       const temp = panel.children[0].cloneNode(true); // Clone template
       temp.children[0].setAttribute("src", picture); // Set picture
@@ -90,7 +90,7 @@ const folBit = async (target, motion, file) => {
       // Retrieve data from metadata
       const title = object[key].title ?? "Not Available";
       const target = object[key].target ?? "Not Available";
-      const picture = object[key].picture ?? "/public/template.webp";
+      const picture = object[key].picture ?? "./template.webp";
 
       const temp = panel.children[0].cloneNode(true); // Clone template
       temp.children[0].setAttribute("src", picture); // Set picture

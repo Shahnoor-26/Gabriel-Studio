@@ -63,7 +63,7 @@ let alpha = {
   status: "Verified Playlist",
   description:
     "This playlist is for saving only my favorite songs. It includes tracks that resonate with me emotionally, inspire creativity during studio sessions, and represent the music I enjoy the most across different genres and moods. From chill lo-fi beats and atmospheric instrumentals to powerful vocals and high-energy anthems, each song holds personal significance. This collection evolves over time as I discover new music that fuels my passion, helps me focus, or simply makes me feel alive.",
-  picture: "/public/template.webp",
+  picture: "./template.webp",
   content: [],
 };
 
@@ -134,7 +134,7 @@ const updateUI = async (source) => {
     const metadata = await metadataRet(source); // Retrieve metadata
 
     // Retrieve data from metadata
-    const picture = metadata.picture ?? "/public/template.webp";
+    const picture = metadata.picture ?? "./template.webp";
     const title = metadata.title ?? "Not Available";
     const artist = metadata.artist ?? "Not Available";
     const composer = metadata.composer ?? "Not Available";
@@ -263,7 +263,7 @@ const upcoming = async (target, audio, isFast = true) => {
         // Retrieve data from metadata
         const title = metadata.title ?? "Not Available";
         const artist = metadata.artist ?? "Not Available";
-        const picture = metadata.picture ?? "/public/template.webp";
+        const picture = metadata.picture ?? "./template.webp";
 
         // Elements interface data and cover (template)
         const temp = target.children[1]; // Create template
@@ -290,7 +290,7 @@ const upcoming = async (target, audio, isFast = true) => {
           // Retrieve data from metadata
           const title = data.title ?? "Not Available";
           const artist = data.artist ?? "Not Available";
-          const picture = data.picture ?? "/public/template.webp";
+          const picture = data.picture ?? "./template.webp";
 
           const temp = target.children[1].children[0].cloneNode(true); // Clone template
           temp.children[0].setAttribute("src", picture); // Set picture

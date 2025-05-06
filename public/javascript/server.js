@@ -83,7 +83,7 @@ export const metadataRet = async (path) => {
     const response = await request.blob(); // Getting response
     const file = await metadata.parseBlob(response); // Parsing the blob
 
-    let source = "/public/template.webp"; // Initial source
+    let source = "./template.webp"; // Initial source
 
     // Conversion of picture into source
     if (file.common.picture?.length) {

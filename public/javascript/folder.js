@@ -41,7 +41,7 @@ const objective = async (object) => {
     const status = object.status ?? "Not Available";
     const target = object.target ?? "Not Available";
     const description = object.description ?? "Not Available";
-    const picture = object.picture ?? "/public/template.webp";
+    const picture = object.picture ?? "./template.webp";
 
     localStorage.setItem("batch", JSON.stringify(batch)); // Store batch in storage
     window.dispatchEvent(new Event("storage")); // Trigger storage event
@@ -67,7 +67,7 @@ const objective = async (object) => {
       const duration = data.duration ?? 0;
       const title = data.title ?? "Not Available";
       const artist = data.artist ?? "Not Available";
-      const picture = data.picture ?? "/public/template.webp";
+      const picture = data.picture ?? "./template.webp";
 
       const temp = forTable.children[0].cloneNode(true); // Clone template
       temp.children[0].textContent = index + 1; // Set index
@@ -108,7 +108,7 @@ const libInit = async (beta = [], isGrid = false) => {
         // Retrieve data from object
         const title = data.title ?? "Not Available";
         const artist = data.target ?? "Not Available";
-        const picture = data.picture ?? "/public/template.webp";
+        const picture = data.picture ?? "./template.webp";
 
         const temp = forGrid.children[0].children[0].cloneNode(true); // Clone template
         temp.children[0].setAttribute("src", picture); // Set picture
@@ -124,7 +124,7 @@ const libInit = async (beta = [], isGrid = false) => {
         // Retrieve data from object
         const title = data.title ?? "Not Available";
         const artist = data.target ?? "Not Available";
-        const picture = data.picture ?? "/public/template.webp";
+        const picture = data.picture ?? "./template.webp";
 
         const temp = forCompact.children[0].cloneNode(true); // Clone template
         temp.children[0].setAttribute("src", picture); // Set picture
