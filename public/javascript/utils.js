@@ -1,4 +1,4 @@
-import { audioRet, fileRet, metadataRet } from "./server.js";
+import { fileRet, metadataRet } from "./server.js";
 
 // Retrieve data from storage
 const dataPath = localStorage.getItem("data-path");
@@ -203,10 +203,9 @@ export const retrieve = async (data) => {
       if (object && typeof object === "object") return object; // Return object
     }
 
-    const content = await audioRet(audioPath); // Retrieve audio
     if (keyIdx > 2 && keyIdx < keyword.length) {
-      if (Array.isArray(content) && content.length > 0)
-        return content.slice(0, content.length / 2); // Return array
+      if (Array.isArray(ultra) && ultra.length > 0)
+        return ultra.slice(0, ultra.length / 2); // Return array
     }
 
     // Method II - Searching for data in objects
@@ -222,16 +221,16 @@ export const retrieve = async (data) => {
     }
 
     // Method III - Searching for data in audio titles
-    const decoded = content ? content.map((audio) => decodeURI(audio)) : []; // Decode content
+    const decoded = ultra ? ultra.map((audio) => decodeURI(audio)) : []; // Decode content
     const match = decoded.filter((key) => key.toLowerCase().includes(unit)); // Match data
     if (Array.isArray(match) && match.length > 0) return match; // Return array
 
     // Method IV - Searching for data in audio metadata
     const metadata = await Promise.all(
-      content.map((audio) => metadataRet(audioPath + audio))
+      ultra.map((audio) => metadataRet(audioPath + audio))
     ); // Retrieve metadata
 
-    const matched = content.filter((audio, index) => {
+    const matched = ultra.filter((audio, index) => {
       const meta = metadata[index];
       if (!meta) return false; // Skip if no metadata
 
