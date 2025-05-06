@@ -1,6 +1,6 @@
 import { audioRet, fileRet, metadataRet } from "./server.js";
 import { audioInit } from "./engine.js";
-import { subset } from "./utils.js";
+import { subset, ultra } from "./utils.js";
 
 // Path declaration for data, audio and video
 const dataPath = "./database/data/";
@@ -135,8 +135,7 @@ const folTouch = (target, object) => {
 // Function to initialize process (main)
 const main = async () => {
   try {
-    const batch = await audioRet(audioPath); // Retrieve batch
-    const piece = batch.slice(batch.length / 2); // Half batch
+    const piece = ultra.slice(ultra.length / 2); // Half batch
 
     const artists = await folBit(forPanel[0], forMotion[0], "artists.json"); // Display artists
     const albums = await folBit(forPanel[1], forMotion[1], "albums.json"); // Display albums
@@ -149,8 +148,8 @@ const main = async () => {
     await fileBit(forPanel[3], forMotion[3], subset(piece, 15)); // Display audio
     await fileBit(forPanel[4], forMotion[4], subset(piece, 15)); // Display audio
 
-    fileTouch(forPanel[3].children[0], batch); // Audio touch event
-    fileTouch(forPanel[4].children[0], batch); // Audio touch event
+    fileTouch(forPanel[3].children[0], ultra); // Audio touch event
+    fileTouch(forPanel[4].children[0], ultra); // Audio touch event
 
     // Elements interface touch event (text box)
     forTextBox.forEach((target) => {

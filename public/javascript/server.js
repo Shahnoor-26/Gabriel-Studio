@@ -1,59 +1,5 @@
 import * as metadata from "https://cdn.jsdelivr.net/npm/music-metadata-browser/+esm";
 
-// Function to fetch audios from given path
-export const audioRet = async (path) => {
-  try {
-    if (!path) return; // Validation check
-
-    const request = await fetch(path); // Fetch request
-
-    if (!request.ok) console.log(request.statusText); // Check status
-
-    const response = await request.text(); // Getting response
-
-    const div = document.createElement("div"); // Div creation
-    div.innerHTML = response;
-
-    const anchors = div.querySelectorAll("a"); // Getting anchors
-
-    const batch = Array.from(anchors)
-      .map((anchor) => anchor.href)
-      .filter((href) => href.endsWith(".mp3"))
-      .map((href) => href.split("/").at(-1)); // Filter anchors
-
-    return batch ? batch : []; // Return batch
-  } catch (error) {
-    console.log(error);
-  }
-};
-
-// Function to fetch videos from given path
-export const videoRet = async (path, file) => {
-  try {
-    if (!path && !file) return false; // Validation check
-
-    const request = await fetch(path); // Fetch request
-
-    if (!request.ok) console.log(request.statusText); // Check status
-
-    const response = await request.text(); // Getting response
-
-    const div = document.createElement("div"); // Div creation
-    div.innerHTML = response;
-
-    const anchors = div.querySelectorAll("a"); // Getting anchors
-
-    const batch = Array.from(anchors)
-      .map((anchor) => anchor.href)
-      .filter((href) => href.endsWith(".mp4"))
-      .map((href) => href.split("/").at(-1)); // Filter anchors
-
-    return batch.includes(encodeURI(file)) ? encodeURI(path + file) : false; // Return file
-  } catch (error) {
-    console.log(error);
-  }
-};
-
 // Function to fetch object from given path
 export const fileRet = async (path) => {
   try {
