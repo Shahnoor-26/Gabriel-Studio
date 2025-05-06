@@ -3,7 +3,6 @@ import { fileRet, metadataRet } from "./server.js";
 // Retrieve data from storage
 const dataPath = localStorage.getItem("data-path");
 const audioPath = localStorage.getItem("audio-path");
-const videoPath = localStorage.getItem("video-path");
 
 // Model for audio
 export const ultra = [
@@ -104,8 +103,6 @@ export const ultra = [
   "Zara Sa (Jannat).mp3",
   "Zihaal E Miskin.mp3",
 ];
-
-// Model for video
 
 // Function to select subset of an array
 export const subset = (array, range = 10) => {

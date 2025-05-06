@@ -1,4 +1,4 @@
-import {  fileRet, metadataRet } from "./server.js";
+import { fileRet, metadataRet } from "./server.js";
 import { audioInit } from "./engine.js";
 import { subset, ultra } from "./utils.js";
 

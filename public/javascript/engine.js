@@ -68,7 +68,14 @@ let alpha = {
 };
 
 const forAudio = new Audio(); // Audio object
-const pathway = ["/", "/index.html", "/folder.html", "/search.html"]; // Pathway object
+const pathway = [
+  "/",
+  "/index.html",
+  "/folder",
+  "/folder.html",
+  "/search",
+  "/search.html",
+]; // Pathway object
 
 // Function to handle storage changes
 export const shift = () => {
@@ -218,7 +225,7 @@ const updateUI = async (source) => {
       forInDet.children[1].children[3].textContent = composer; // Set composer
       forInDet.children[1].children[5].textContent = artists; // Set album artist
 
-      vfile = "./database/video/Sawan Mein Lag Gayi Aag (Ginny Weds Sunny).mp4"
+      vfile = "./database/video/Sawan Mein Lag Gayi Aag (Ginny Weds Sunny).mp4";
 
       if (vfile) {
         // Elements interface (info screen)
@@ -724,7 +731,7 @@ if (pathway.includes(location.pathname)) {
 }
 
 // Location based interface update (folder)
-if (location.pathname === "/folder.html") {
+if (location.pathname === "/folder") {
   try {
     // Button functionality (play all)
     forPlayAllBtn.addEventListener("click", async () => {
