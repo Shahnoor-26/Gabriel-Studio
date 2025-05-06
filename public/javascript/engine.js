@@ -221,6 +221,8 @@ const updateUI = async (source) => {
       if (file === "Sawan Mein Lag Gayi Aag (Ginny Weds Sunny)") {
         vfile =
           "./database/video/Sawan Mein Lag Gayi Aag (Ginny Weds Sunny).mp4";
+      } else {
+        vfile = null;
       }
 
       if (vfile) {
