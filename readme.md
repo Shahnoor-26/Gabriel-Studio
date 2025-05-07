@@ -3,11 +3,11 @@
 **_Stream. Download. Experience._**  
 A modern, responsive, and immersive web-based music platform.
 
-ðŸ”— **Live Demo**: [gabriel-studio.vercel.app](https://gabriel-studio.vercel.app/)
+🔗 **Live Demo**: [gabriel-studio.vercel.app](https://gabriel-studio.vercel.app/)
 
 ---
 
-## ðŸ”§ Tech Stack
+## 🔧 Tech Stack
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
@@ -17,57 +17,57 @@ A modern, responsive, and immersive web-based music platform.
 
 ---
 
-## ðŸŽ¯ Overview
+## 🎯 Overview
 
 **Gabriel Studio** is an all-in-one music streaming and downloading platform designed to provide a clean, immersive, and mobile-responsive user experience. It allows users to browse, manage, and enjoy their music collections seamlessly.
 
 ---
 
-## ðŸš€ Features
+## 🚀 Features
 
-### ðŸŽ¨ UI/UX Design
+### 🎨 UI/UX Design
 
 - Sleek and minimalist interface
 - Fully responsive and mobile-friendly
 - Smooth, intuitive animations and layout transitions
 
-### ðŸŽµ Music Library
+### 🎵 Music Library
 
 - Browse by: `Songs`, `Artists`, `Albums`, `Playlists`
 - Instant playback and media previews
 
-### ðŸ“ Metadata & Lyrics
+### 📝 Metadata & Lyrics
 
 - Rich song details: title, album, artist, genre, and year
 - Integrated toggleable lyrics viewer
 - Expandable information panels
 
-### ðŸŽ§ Audio Controls
+### 🎧 Audio Controls
 
 - Play modes: `Solo`, `List`
 - Features: `Play`, `Pause`, `Next`, `Previous`, `Shuffle`, `Volume`, `Seek`
 - Switch between compact and extended views
 
-### ðŸ” Smart Search
+### 🔍 Smart Search
 
 - Search songs using metadata or categories
 - Sub-filters: _Retro_, _Pop_, _Hindi_, _Punjabi_, etc.
 - Live filtering and fast results
 
-### ðŸ“ Visual Panels
+### 📁 Visual Panels
 
 - **Library**: Favorite songs and custom folders
 - **Panel**: Album, Artist, Playlist deep views
 - **Visual**: Artwork, video, and album storyboards
 
-### ðŸ”Š Adaptive Audio Player
+### 🔊 Adaptive Audio Player
 
 - Responsive layouts based on screen size
 - Persistent playback and toggle controls
 
 ---
 
-## ðŸ›  Installation
+## 🛠 Installation
 
 Clone the repository:
 
@@ -83,47 +83,47 @@ Then either:
 
 ---
 
-## ðŸ“ Folder Structure
+## 📁 Folder Structure
 
 ```
 Gabriel-Studio/
-â”œâ”€â”€ public/
-â”‚   â”œâ”€â”€ database/
-â”‚   â”‚   â”œâ”€â”€ audio/
-â”‚   â”‚   â”œâ”€â”€ data/
-â”‚   â”‚   â”œâ”€â”€ picture/
-â”‚   â”‚   â””â”€â”€ video/
-â”‚   â”œâ”€â”€ javascript/
-â”‚   â”‚   â”œâ”€â”€ engine.js
-â”‚   â”‚   â”œâ”€â”€ folder.js
-â”‚   â”‚   â”œâ”€â”€ index.js
-â”‚   â”‚   â”œâ”€â”€ search.js
-â”‚   â”‚   â”œâ”€â”€ server.js
-â”‚   â”‚   â””â”€â”€ utils.js
-â”‚   â”œâ”€â”€ pages/
-â”‚   â”‚   â”œâ”€â”€ about.html
-â”‚   â”‚   â”œâ”€â”€ accessibility.html
-â”‚   â”‚   â”œâ”€â”€ cookies.html
-â”‚   â”‚   â”œâ”€â”€ legal.html
-â”‚   â”‚   â”œâ”€â”€ privacy.html
-â”‚   â”‚   â””â”€â”€ security.html
-â”‚   â”œâ”€â”€ src/
-â”‚   â”œâ”€â”€ index.html
-â”‚   â”œâ”€â”€ folder.html
-â”‚   â””â”€â”€ search.html
-â”œâ”€â”€ .gitignore
-â”œâ”€â”€ vercel.json
-â”œâ”€â”€ README.md
-â”œâ”€â”€ setup.md
-â””â”€â”€ package.json
+├── public/
+│   ├── database/
+│   │   ├── audio/
+│   │   ├── data/
+│   │   ├── picture/
+│   │   └── video/
+│   ├── javascript/
+│   │   ├── engine.js
+│   │   ├── folder.js
+│   │   ├── index.js
+│   │   ├── search.js
+│   │   ├── server.js
+│   │   └── utils.js
+│   ├── pages/
+│   │   ├── about.html
+│   │   ├── accessibility.html
+│   │   ├── cookies.html
+│   │   ├── legal.html
+│   │   ├── privacy.html
+│   │   └── security.html
+│   ├── src/
+│   ├── index.html
+│   ├── folder.html
+│   └── search.html
+├── .gitignore
+├── vercel.json
+├── README.md
+├── setup.md
+└── package.json
 ```
 
 ---
 
-## ðŸŒ Deployment
+## 🌐 Deployment
 
 The project is deployed on Vercel and accessible at:  
-ðŸ‘‰ [gabriel-studio.vercel.app](https://gabriel-studio.vercel.app/)
+👉 [gabriel-studio.vercel.app](https://gabriel-studio.vercel.app/)
 
 To deploy your own version:
 
@@ -141,7 +141,7 @@ To deploy your own version:
 
 ---
 
-## ðŸ§­ Roadmap
+## 🧭 Roadmap
 
 - [ ] Firebase backend integration
 - [ ] User authentication and profiles
@@ -151,14 +151,14 @@ To deploy your own version:
 
 ---
 
-## ðŸ“¬ Contact
+## 📬 Contact
 
 For feedback, improvements, or contributions:  
 **GitHub**: [@Shahnoor-26](https://github.com/Shahnoor-26)
 
 ---
 
-## ðŸ“„ License
+## 📄 License
 
 This project is provided for **educational and personal use only**.  
 **No commercial use or redistribution is permitted.**  
